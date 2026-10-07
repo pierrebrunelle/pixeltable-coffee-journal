@@ -1,0 +1,17 @@
+[project]
+name = "pixeltable-coffee-journal"
+version = "0.1.0"
+description = "Coffee tasting journal API: roast labels and tasting summaries as computed columns - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "fastapi", "computed-columns", "data-infrastructure", "coffee-journal"]
+dependencies = [
+    "pixeltable[serve]>=0.7.14",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
